@@ -1,15 +1,13 @@
-org_name: nullstone
-name: aws-sns-https-subscription
-friendly_name: SNS HTTPS Subscription
-description: Capability that creates a subscription to the SNS topic for the application
-category: capability
-subcategory: datastores
+org_name: Evolve
+name: aws-sns-https-subscriptions
+friendly_name: SNS HTTPS Subscriptions
+description: Creates https subscriptions for the connected SNS topic
+category: block
+subcategory: ""
 provider_types:
     - aws
 platform: sns
 subplatform: ""
 type: ""
-appCategories:
-    - container
-    - serverless
-is_public: true
+appCategories: []
+is_public: false
